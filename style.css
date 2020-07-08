@@ -40,7 +40,7 @@ p{
 
 .btn:active, .pa, .pa-explore{
 	position: relative;
-	  top: 10px;
+	  top: 5px;
 }
 
 .main_container{
@@ -214,16 +214,24 @@ p{
 		margin-top: 35px;
 	}
 
-	.btn a,.pa-explore {
-		width: 120px;
-		height: 35px;
+	.btn a, .pa-explore {
+		width: 90px;
+		/* height: 35px; */
 		line-height: 35px;
 		border: 2px solid #F36E3A;
 		color: #F36E3A;
 		display: block;
-		margin: 25px auto 0;
+		margin: 20px auto 0;
 		text-align: center;
 		border-radius: 5px;
 	}
 
+	.destination, .h3 {
+		font-size: 12px;
+	}
+
+	/* .diff_destination .diff_destination_item h3 {
+		color: #F36E3A;
+		margin-bottom: 5px;
+	} */
 }
